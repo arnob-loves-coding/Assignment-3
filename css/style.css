@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.banner-color {
+  background-color: #264653;
+}
+.burnt-sienna-background {
+  background-color: #e76f51;
+}
+.burnt-sienna-btn-outline {
+  outline-color: #e76f51;
+}
+.burnt-sienna-text {
+  color: #e76f51;
+}
+.bike-1,
+.bike-3 {
+  filter: grayscale(100%);
+}
+.card-img {
+  width: 149px;
+  height: 149px;
+}
