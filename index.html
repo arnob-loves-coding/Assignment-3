@@ -22,12 +22,42 @@
     />
   </head>
   <body>
-    <header>
+    <header class="banner-color">
+      <!-- navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent pt-4">
+        
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active  text-white ms-lg-2" aria-current="page" href="#">Home</a>
+              <a class="nav-link  text-white ms-lg-2" href="#">Shop</a>
+              <a class="nav-link  text-white ms-lg-2" href="#">News</a>
+              <a class="nav-link  text-white ms-lg-2 " href="#">Contact</a>
+            </div>
+           <div class="pt-sm-5 py-4 py-lg-0 ">
+            <a href="#" class="text-decoration-none  text-white
+            burnt-sienna-background
+            border-0
+            burnt-sienna-btn-outline
+            h6
+            rounded
+            px-4
+            py-2
+            ms-lg-5
+            ">Login</a>
+           </div>
+          </div>
+        
+      </nav>
+    </div>
       <!-- banner -->
-      <section class="banner banner-color p-3 pb-5 pt-md-3 pt-lg-3 pt-sm-0">
+      <section class=" p-3 pb-5 pt-md-3 pt-lg-3 pt-sm-0">
         <div class="container">
           <div class="row">
-            <div class="banner-text text-white col-md-6 pt-5">
+            <div class="text-white col-md-6 pt-md-5 ">
               <p class="h6 fw-lighter text-white-50 pt-5">
                 Computer-controlled digital transistorized with electronic
                 advance
@@ -54,7 +84,7 @@
                   rounded
                 "
                 data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                data-bs-target="#Modal"
               >
                 <span> Purchase</span>
               </button>
@@ -62,9 +92,8 @@
               <!-- Modal -->
               <div
                 class="modal fade"
-                id="exampleModal"
+                id="Modal"
                 tabindex="-1"
-                aria-labelledby="exampleModalLabel"
                 aria-hidden="true"
               >
                 <div
@@ -74,7 +103,7 @@
                 >
                   <div class="modal-content text-dark">
                     <div class="modal-header banner-color text-white">
-                      <h5 class="modal-title" id="exampleModalLabel">
+                      <h5 class="modal-title" >
                         Specification & Puchasing Poilcy
                       </h5>
                       <button
@@ -132,7 +161,6 @@
             </div>
             <div
               class="
-                banner-img
                 col-md-6
                 pt-sm-5 pt-md-5
                 mt-sm-5 mt-md-3
@@ -149,28 +177,28 @@
 
     <main>
       <!-- featured-bikes -->
-      <section class="featured-bikes mt-4">
+      <section class="mt-4">
         <div class="container px-4 pt-5">
           <h1 class="fw-bolder text-center mt-5">Featured Bikes 2021</h1>
-          <p class="h6 burnt-sienna-text text-center mb-5">
+          <div class="d-flex justify-content-center "><span class="after-style h6 burnt-sienna-text mb-5 d-flex justify-content-center flex-column position-relative ">
             Best Bike Collection
-          </p>
+        </span></div>
           <div class="row p-3 pt-5 gx-5 gy-5">
-            <div class="bike-1 col-12 col-md-6 col-lg-4 px-5 mb-5">
+            <div class=" col-12 col-md-6 col-lg-4 px-5 mb-5">
+              <img src="images/feature-bike.jpg" alt="" class="img-fluid bike-1" />
+            </div>
+            <div class=" col-12 col-md-6 col-lg-4 px-5 mb-5">
               <img src="images/feature-bike.jpg" alt="" class="img-fluid" />
             </div>
-            <div class="bike-2 col-12 col-md-6 col-lg-4 px-5 mb-5">
-              <img src="images/feature-bike.jpg" alt="" class="img-fluid" />
-            </div>
-            <div class="bike-3 col-12 col-md-6 col-lg-4 px-5 mb-5">
-              <img src="images/feature-bike.jpg" alt="" class="img-fluid" />
+            <div class=" col-12 col-md-6 col-lg-4 px-5 mb-5">
+              <img src="images/feature-bike.jpg" alt="" class="img-fluid bike-3" />
             </div>
           </div>
         </div>
       </section>
 
       <!-- happy-clients -->
-      <section class="happy-clients mt-5">
+      <section class=" mt-5">
         <div class="container px-5">
           <h1 class="fw-bolder text-center pt-5 mb-5">
             Happy <span class="burnt-sienna-text">Clients says</span>
@@ -247,7 +275,7 @@
       </section>
 
       <!-- FAQ -->
-      <section class="FAQ mt-4 pt-5">
+      <section class=" mt-4 pt-5">
         <div class="container p-5">
           <h1 class="fw-bolder text-center pt-3 mb-5 lh-base">
             Frequently Asked <span class="burnt-sienna-text">Questions</span>
@@ -396,7 +424,7 @@
       </section>
 
       <!-- flash sale -->
-      <section class="flash-sale pt-5 mb-5">
+      <section class=" pt-5 mb-5">
         <h1 class="fw-bolder text-center pt-3 mb-5">Flash Sale</h1>
         <div class="container d-flex justify-content-center align-items-center mb-5">
           <div
@@ -441,7 +469,7 @@
       </section>
 
       <!-- form -->
-      <section class="form-section p-5">
+      <section class=" p-5">
         <div class="container banner-color p-5">
           <h1 class="fw-bolder text-center pt-3 mb-5 text-white lh-base">
             Keep<span class="burnt-sienna-text"> Me Updated</span>
@@ -513,7 +541,7 @@
                   rounded
                 "
               >
-                Sign in
+                Subscribe
               </button>
             </div>
           </form>

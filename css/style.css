@@ -10,11 +10,11 @@ body {
 .burnt-sienna-background {
   background-color: #e76f51;
 }
-.burnt-sienna-btn-outline {
-  outline-color: #e76f51;
-}
 .burnt-sienna-text {
   color: #e76f51;
+}
+.burnt-sienna-btn-outline {
+  outline-color: #e76f51;
 }
 .bike-1,
 .bike-3 {
@@ -23,4 +23,14 @@ body {
 .card-img {
   width: 149px;
   height: 149px;
+}
+.after-style::after {
+  content: "";
+  display: block;
+  background: #e76f51;
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  width: 50%;
+  height: 1px;
 }
